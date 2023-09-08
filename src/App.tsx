@@ -68,8 +68,8 @@ function App() {
         <div className="left">
           <div className="card">
             <div className="name-details row">
-              <h1 className="name">Yash Mehta</h1>
-              <h1 className="details">Developer, Designer & Analyst</h1>
+              <h1 className="name">Developer, Designer & Analyst</h1>
+              <h1 className="details"></h1>
             </div>
             <div className="photo">
               <div className="bg">
@@ -372,7 +372,7 @@ function App() {
                 <li>Designed an Android app for budget planning and expense tracking, facilitating seamless deduction of expenses from available funds.</li>
                 <li>Leveraged OCR technology to streamline expense tracking by enabling users to effortlessly add bills to their records.</li>
                 <li>Incorporated a trusted news and opinion section to keep users informed, while the investment section provides stock data and prediction
-                  models for profitable trading decisions.<br/><br/><br/><br/></li>
+                  models for profitable trading decisions.<br/><br/><br/><br/><br/></li>
               </ul>
               <a href={'https://youtu.be/ZGFReRq8heY'} target={'_blank'}>
                 <button className="bookmarkBtn">
@@ -396,7 +396,7 @@ function App() {
                   with their living environment.</li>
                 <li>Created an immersive 3D website with Glitch, featuring interactive visuals and intuitive controls for an enhanced user experience</li>
                 <li>Seamlessly connected various IoT devices, allowing users to monitor and manage their home appliances efficiently through the virtual app
-                  interface.<br/><br/><br/></li>
+                  interface.<br/><br/></li>
               </ul>
               <a href={'#'} target={'_blank'}>
                 <button className="bookmarkBtn">
