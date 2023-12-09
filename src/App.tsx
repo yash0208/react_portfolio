@@ -47,13 +47,13 @@ function App() {
                 <a className="nav-link active" aria-current="page" href="#intro">Introduction</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#experience">Experience</a>
+                <a className="nav-link" href="#projects">Projects</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#skills">Skills</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">Projects</a>
+                <a className="nav-link" href="#experience">Experience</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#projects">Research</a>
@@ -184,157 +184,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="introduction_experience" id="experience">
-        <button className="button_intro">
-          <span className="button-content">Work Experience </span>
-        </button>
-        <div className="row workex_container">
-          <div className="col-lg-4 col-sm-12 ">
-            <div className="card_exp">
-              <img className="logo" src={bisag} alt="Company 1 Logo"/>
-                <div className="company-name">Bhaskaracharya Institute for Space Applications and Geoinformatics</div>
-                <div className="position">Data Engineer</div>
-                <div className="bullet-points">
-                  <div className="bullet-point">Employed as a data engineer at Bhaskaracharya Institute for Space
-                    Applications and Geoinformatics, acquiring extensive expertise in the
-                    field of data science
-                  </div>
-                  <div className="bullet-point">Utilized my proficiency in data engineering and data science to create
-                    an advanced web portal for URL-based phishing detection. This portal
-                    incorporated sophisticated techniques to identify and mitigate phishing threats effectively.
-                  </div>
-                  <div className="bullet-point">Deployed cutting-edge algorithms and techniques to meticulously analyze
-                    URLs, enabling the identification of potential phishing threats.
-                    This implementation significantly bolstered cybersecurity measures, ensuring enhanced protection for
-                    users accessing the web portal
-                  </div>
-                </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="card_exp">
-              <img className="logo" src={toshal} alt="Company 1 Logo"/>
-                <div className="company-name">Toshal Infotech</div>
-                <div className="position">Web Developer</div>
-                <div className="bullet-points">
-                  <div className="bullet-point">Thrived as a web developer at Toshal Infotech, acquiring comprehensive
-                    proficiency in HTML, CSS, SCSS, and Bootstrap frameworks.
-                    Demonstrated adeptness in leveraging these technologies to deliver exceptional web solutions and
-                    enhance user experiences.
-                  </div>
-                  <div className="bullet-point">Spearheaded the creation of "Enovate Me," a groundbreaking e-learning
-                    website, harnessing my expertise in web development. Seamlessly
-                    integrating innovative design elements and interactive features, the website revolutionized the
-                    online learning experience.
 
-                  </div>
-                  <div className="bullet-point">Implemented cutting-edge design and interactive features to enhance user
-                    experience on Enovate Me platform, creating an engaging
-                    learning environment.
-                  </div>
-                </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="card_exp">
-              <img className="logo" src={my_captain} alt="Company 1 Logo"
-                   />
-                <div className="company-name" >My Captain</div>
-                <div className="position">Campus Ambassador</div>
-                <div className="bullet-points">
-                  <div className="bullet-point">Demonstrated expertise in lead generation, social marketing, and course
-                    sales as a campus ambassador, driving successful conversion rates.
-                  </div>
-                  <div className="bullet-point">Utilized diverse marketing channels and strategic networking to promote
-                    courses, resulting in increased awareness and enrollment.
-                  </div>
-                  <div className="bullet-point">Leveraged leadership skills to mentor and train interns, imparting
-                    knowledge and fostering their development in sales and marketing.
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="introduction_skills" id="skills" >
-        <button className="button_intro">
-          <span className="button-content">Skills </span>
-        </button>
-        <div className="row skill_container">
-          <div className="con2">
-            <div className=" con1 ">
-              <div className="progress-bar">
-                <CircularProgressbar value={85} text={'85%'}/>
-              </div>
-              <h1>UX & UI</h1>
-              <a href={'https://drive.google.com/file/d/1TYUJOJ3VFUo-IDGHAHZsJkHQTI7S1HAI/view?usp=drive_link'}>UX UI Design (My Captain)</a>
-            </div>
-          </div>
-          <div className="con2">
-            <div className=" con1 ">
-              <div className="progress-bar">
-                <CircularProgressbar value={80} text={'80%'}/>
-              </div>
-              <h1>Data Science</h1>
-              <a href={'#'}>Goggle Data Science Course</a>
-            </div>
-          </div>
-          <div className="con2">
-            <div className=" con1 ">
-              <div className="progress-bar">
-                <CircularProgressbar value={85} text={'85%'}/>
-              </div>
-              <h1>Web Development</h1>
-              <a href={'https://drive.google.com/file/d/1tUSZknttiXSLi6YrCN1s1_WHDRhV8YrU/view?usp=sharing'}>Web Development (My Captain)</a>
-            </div>
-          </div>
-          <div className="con2">
-            <div className=" con1 ">
-              <div className="progress-bar">
-                <CircularProgressbar value={90} text={'90%'}/>
-              </div>
-              <h1>Android Development</h1>
-              <a href={'https://drive.google.com/file/d/1-tywaKN50hJZAA1E9iH_zjdFxLR_QtJc/view?usp=sharing'}>Android Development (My Captain)</a>
-            </div>
-          </div>
-          <div className="con2">
-            <div className=" con1 ">
-              <div className="progress-bar">
-                <CircularProgressbar value={75} text={'75%'}/>
-              </div>
-              <h1>Database Managment</h1>
-              <a href={'#'}>Firebase & My SQL</a>
-            </div>
-          </div>
-          <div className="con2">
-            <div className=" con1 ">
-              <div className="progress-bar">
-                <CircularProgressbar value={60} text={'60%'}/>
-              </div>
-              <h1>Machine Learning</h1>
-              <a href={'https://drive.google.com/file/d/1A9_Px92m74fTEW9p861a4RReqxx2p0YF/view?usp=sharing'}>Machine Learning (Standford University)</a>
-            </div>
-          </div>
-          <div className="con2">
-            <div className=" con1 ">
-              <div className="progress-bar">
-                <CircularProgressbar value={66} text={'66%'}/>
-              </div>
-              <h1>Game Development</h1>
-              <a href={'https://drive.google.com/file/d/12OkzNqySRkRGydKCjqXdEolbRYJQCmur/view?usp=sharing'}>Game Development (My Captain)</a>
-            </div>
-          </div>
-          <div className="con2">
-            <div className=" con1 ">
-              <div className="progress-bar">
-                <CircularProgressbar value={70} text={'70 %'}/>
-              </div>
-              <h1>Artificial Intelligence</h1>
-              <a href={'https://drive.google.com/file/d/16N8Vw0JZeAjpNEf7QyJPw6tfbQgDVoci/view?usp=sharing'}>Artificial Intelligence (My Captain)</a>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="introduction_projects" id="projects" >
         <button className="button_intro">
           <span className="button-content">Projects </span>
@@ -352,16 +202,32 @@ function App() {
                   healthy eating habits. Furthermore, users can explore recipes based on available ingredients, accompanied by detailed guides and nutritional
                   information for informed choices.</li>
               </ul>
-              <a href={'https://youtu.be/udJCVo6beg0'} target={'_blank'}>
-                <button className="bookmarkBtn">
+              <div className="button_containter">
+                <a href={'https://drive.google.com/file/d/1iiNCvl9pGlhBw0nGn7ZdSg6GurpwOlxm/view?usp=sharing'} target={'_blank'}>
+                  <button className="bookmarkBtn">
+                <span className="IconContainer">
+               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none">
+<path d="M18 6.00002V6.75002H18.75V6.00002H18ZM15.7172 2.32614L15.6111 1.58368L15.7172 2.32614ZM4.91959 3.86865L4.81353 3.12619H4.81353L4.91959 3.86865ZM5.07107 6.75002H18V5.25002H5.07107V6.75002ZM18.75 6.00002V4.30604H17.25V6.00002H18.75ZM15.6111 1.58368L4.81353 3.12619L5.02566 4.61111L15.8232 3.0686L15.6111 1.58368ZM4.81353 3.12619C3.91638 3.25435 3.25 4.0227 3.25 4.92895H4.75C4.75 4.76917 4.86749 4.63371 5.02566 4.61111L4.81353 3.12619ZM18.75 4.30604C18.75 2.63253 17.2678 1.34701 15.6111 1.58368L15.8232 3.0686C16.5763 2.96103 17.25 3.54535 17.25 4.30604H18.75ZM5.07107 5.25002C4.89375 5.25002 4.75 5.10627 4.75 4.92895H3.25C3.25 5.9347 4.06532 6.75002 5.07107 6.75002V5.25002Z" fill="#1C274D"/>
+<path d="M8 12H16" stroke="#1C274D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M8 15.5H13.5" stroke="#1C274D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M4 6V19C4 20.6569 5.34315 22 7 22H17C18.6569 22 20 20.6569 20 19V14M4 6V5M4 6H17C18.6569 6 20 7.34315 20 9V10" stroke="#1C274D" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
+                </span>
+                    <p className="text">Read More</p>
+                  </button>
+                </a>
+                <a href={'https://youtu.be/udJCVo6beg0'} target={'_blank'}>
+                  <button className="bookmarkBtn">
                 <span className="IconContainer">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 30 30">
     <path d="M 15 4 C 10.814 4 5.3808594 5.0488281 5.3808594 5.0488281 L 5.3671875 5.0644531 C 3.4606632 5.3693645 2 7.0076245 2 9 L 2 15 L 2 15.001953 L 2 21 L 2 21.001953 A 4 4 0 0 0 5.3769531 24.945312 L 5.3808594 24.951172 C 5.3808594 24.951172 10.814 26.001953 15 26.001953 C 19.186 26.001953 24.619141 24.951172 24.619141 24.951172 L 24.621094 24.949219 A 4 4 0 0 0 28 21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0 24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141 5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12 19.601562 L 12 10.398438 z"></path>
 </svg>
                 </span>
-                  <p className="text">Watch Now</p>
-                </button>
-              </a>
+                    <p className="text">Watch Now</p>
+                  </button>
+                </a>
+              </div>
+
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 pc">
@@ -372,8 +238,22 @@ function App() {
                 <li>Designed an Android app for budget planning and expense tracking, facilitating seamless deduction of expenses from available funds.</li>
                 <li>Leveraged OCR technology to streamline expense tracking by enabling users to effortlessly add bills to their records.</li>
                 <li>Incorporated a trusted news and opinion section to keep users informed, while the investment section provides stock data and prediction
-                  models for profitable trading decisions.<br/><br/><br/><br/><br/></li>
+                  models for profitable trading decisions.<br/><br/><br/></li>
               </ul>
+              <a href={'https://drive.google.com/file/d/1rLhdvrlvPUjGkGiZEhAz06hui7uY32HK/view?usp=sharing'} target={'_blank'}>
+                <button className="bookmarkBtn">
+                <span className="IconContainer">
+               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none">
+<path d="M18 6.00002V6.75002H18.75V6.00002H18ZM15.7172 2.32614L15.6111 1.58368L15.7172 2.32614ZM4.91959 3.86865L4.81353 3.12619H4.81353L4.91959 3.86865ZM5.07107 6.75002H18V5.25002H5.07107V6.75002ZM18.75 6.00002V4.30604H17.25V6.00002H18.75ZM15.6111 1.58368L4.81353 3.12619L5.02566 4.61111L15.8232 3.0686L15.6111 1.58368ZM4.81353 3.12619C3.91638 3.25435 3.25 4.0227 3.25 4.92895H4.75C4.75 4.76917 4.86749 4.63371 5.02566 4.61111L4.81353 3.12619ZM18.75 4.30604C18.75 2.63253 17.2678 1.34701 15.6111 1.58368L15.8232 3.0686C16.5763 2.96103 17.25 3.54535 17.25 4.30604H18.75ZM5.07107 5.25002C4.89375 5.25002 4.75 5.10627 4.75 4.92895H3.25C3.25 5.9347 4.06532 6.75002 5.07107 6.75002V5.25002Z" fill="#1C274D"/>
+<path d="M8 12H16" stroke="#1C274D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M8 15.5H13.5" stroke="#1C274D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M4 6V19C4 20.6569 5.34315 22 7 22H17C18.6569 22 20 20.6569 20 19V14M4 6V5M4 6H17C18.6569 6 20 7.34315 20 9V10" stroke="#1C274D" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
+                </span>
+                  <p className="text">Read More</p>
+                </button>
+              </a>
+
               <a href={'https://youtu.be/ZGFReRq8heY'} target={'_blank'}>
                 <button className="bookmarkBtn">
                 <span className="IconContainer">
@@ -396,7 +276,7 @@ function App() {
                   with their living environment.</li>
                 <li>Created an immersive 3D website with Glitch, featuring interactive visuals and intuitive controls for an enhanced user experience</li>
                 <li>Seamlessly connected various IoT devices, allowing users to monitor and manage their home appliances efficiently through the virtual app
-                  interface.<br/><br/></li>
+                  interface.<br/><br/><br/></li>
               </ul>
               <a href={'#'} target={'_blank'}>
                 <button className="bookmarkBtn">
@@ -480,7 +360,161 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="introduction_projects" id="research" >
+
+      <div className="introduction_skills" id="skills" >
+        <button className="button_intro">
+          <span className="button-content">Skills </span>
+        </button>
+        <div className="row skill_container">
+          <div className="con2">
+            <div className=" con1 ">
+              <div className="progress-bar">
+                <CircularProgressbar value={90} text={'90%'}/>
+              </div>
+              <h1>Android Development</h1>
+              <a href={'https://drive.google.com/file/d/1-tywaKN50hJZAA1E9iH_zjdFxLR_QtJc/view?usp=sharing'}>Android Development (My Captain)</a>
+            </div>
+          </div>
+          <div className="con2">
+            <div className=" con1 ">
+              <div className="progress-bar">
+                <CircularProgressbar value={85} text={'85%'}/>
+              </div>
+              <h1>Web Development</h1>
+              <a href={'https://drive.google.com/file/d/1tUSZknttiXSLi6YrCN1s1_WHDRhV8YrU/view?usp=sharing'}>Web Development (My Captain)</a>
+            </div>
+          </div>
+          <div className="con2">
+            <div className=" con1 ">
+              <div className="progress-bar">
+                <CircularProgressbar value={85} text={'85%'}/>
+              </div>
+              <h1>UI/UX</h1>
+              <a href={'https://drive.google.com/file/d/1TYUJOJ3VFUo-IDGHAHZsJkHQTI7S1HAI/view?usp=drive_link'}>UX UI Design (My Captain)</a>
+            </div>
+          </div>
+          <div className="con2">
+            <div className=" con1 ">
+              <div className="progress-bar">
+                <CircularProgressbar value={80} text={'80%'}/>
+              </div>
+              <h1>Data Science</h1>
+              <a href={'#'}>Goggle Data Science Course</a>
+            </div>
+          </div>
+
+
+          <div className="con2">
+            <div className=" con1 ">
+              <div className="progress-bar">
+                <CircularProgressbar value={75} text={'75%'}/>
+              </div>
+              <h1>Database Managment</h1>
+              <a href={'#'}>Firebase & My SQL</a>
+            </div>
+          </div>
+          <div className="con2">
+            <div className=" con1 ">
+              <div className="progress-bar">
+                <CircularProgressbar value={60} text={'60%'}/>
+              </div>
+              <h1>Machine Learning</h1>
+              <a href={'https://drive.google.com/file/d/1A9_Px92m74fTEW9p861a4RReqxx2p0YF/view?usp=sharing'}>Machine Learning (Standford University)</a>
+            </div>
+          </div>
+          <div className="con2">
+            <div className=" con1 ">
+              <div className="progress-bar">
+                <CircularProgressbar value={66} text={'66%'}/>
+              </div>
+              <h1>Game Development</h1>
+              <a href={'https://drive.google.com/file/d/12OkzNqySRkRGydKCjqXdEolbRYJQCmur/view?usp=sharing'}>Game Development (My Captain)</a>
+            </div>
+          </div>
+          <div className="con2">
+            <div className=" con1 ">
+              <div className="progress-bar">
+                <CircularProgressbar value={70} text={'70 %'}/>
+              </div>
+              <h1>Artificial Intelligence</h1>
+              <a href={'https://drive.google.com/file/d/16N8Vw0JZeAjpNEf7QyJPw6tfbQgDVoci/view?usp=sharing'}>Artificial Intelligence (My Captain)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="introduction_experience" id="experience">
+        <button className="button_intro">
+          <span className="button-content">Work Experience </span>
+        </button>
+        <div className="row workex_container">
+          <div className="col-lg-4 col-sm-12 ">
+            <div className="card_exp">
+              <img className="logo" src={bisag} alt="Company 1 Logo"/>
+                <div className="company-name">Bhaskaracharya Institute for Space Applications and Geoinformatics</div>
+                <div className="position">Data Engineer</div>
+                <div className="bullet-points">
+                  <div className="bullet-point">Employed as a data engineer at Bhaskaracharya Institute for Space
+                    Applications and Geoinformatics, acquiring extensive expertise in the
+                    field of data science
+                  </div>
+                  <div className="bullet-point">Utilized my proficiency in data engineering and data science to create
+                    an advanced web portal for URL-based phishing detection. This portal
+                    incorporated sophisticated techniques to identify and mitigate phishing threats effectively.
+                  </div>
+                  <div className="bullet-point">Deployed cutting-edge algorithms and techniques to meticulously analyze
+                    URLs, enabling the identification of potential phishing threats.
+                    This implementation significantly bolstered cybersecurity measures, ensuring enhanced protection for
+                    users accessing the web portal
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="card_exp">
+              <img className="logo" src={toshal} alt="Company 1 Logo"/>
+                <div className="company-name">Toshal Infotech</div>
+                <div className="position">Web Developer</div>
+                <div className="bullet-points">
+                  <div className="bullet-point">Thrived as a web developer at Toshal Infotech, acquiring comprehensive
+                    proficiency in HTML, CSS, SCSS, and Bootstrap frameworks.
+                    Demonstrated adeptness in leveraging these technologies to deliver exceptional web solutions and
+                    enhance user experiences.
+                  </div>
+                  <div className="bullet-point">Spearheaded the creation of "Enovate Me," a groundbreaking e-learning
+                    website, harnessing my expertise in web development. Seamlessly
+                    integrating innovative design elements and interactive features, the website revolutionized the
+                    online learning experience.
+
+                  </div>
+                  <div className="bullet-point">Implemented cutting-edge design and interactive features to enhance user
+                    experience on Enovate Me platform, creating an engaging
+                    learning environment.
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="card_exp">
+              <img className="logo" src={my_captain} alt="Company 1 Logo"
+                   />
+                <div className="company-name" >My Captain</div>
+                <div className="position">Campus Ambassador</div>
+                <div className="bullet-points">
+                  <div className="bullet-point">Demonstrated expertise in lead generation, social marketing, and course
+                    sales as a campus ambassador, driving successful conversion rates.
+                  </div>
+                  <div className="bullet-point">Utilized diverse marketing channels and strategic networking to promote
+                    courses, resulting in increased awareness and enrollment.
+                  </div>
+                  <div className="bullet-point">Leveraged leadership skills to mentor and train interns, imparting
+                    knowledge and fostering their development in sales and marketing.
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="introduction_projects_2" id="research" >
         <button className="button_intro">
           <span className="button-content">My Reasearch </span>
         </button>
