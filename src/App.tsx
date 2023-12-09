@@ -68,7 +68,7 @@ function App() {
         <div className="left">
           <div className="card">
             <div className="name-details row">
-              <h1 className="name">Developer, Designer & Analyst</h1>
+              <h1 className="name">Android & Web Developer</h1>
               <h1 className="details"></h1>
             </div>
             <div className="photo">
